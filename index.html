@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clothing Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <button data-tab="closet">Closet</button>
+    <button data-tab="log">Log wear</button>
+    <button data-tab="wash">Needs washing <span id="wash-count"></span></button>
+    <button data-tab="add">+ Add</button>
+    <button data-tab="settings">Settings</button>
+  </nav>
+  <div id="status" hidden></div>
+
+  <main>
+    <!-- Closet -->
+    <section id="tab-closet" hidden>
+      <div class="bar">
+        <select class="category-filter" data-for="closet"></select>
+        <span id="closet-summary"></span>
+      </div>
+      <div id="closet-grid" class="grid"></div>
+    </section>
+
+    <!-- Log wear -->
+    <section id="tab-log" hidden>
+      <div class="bar">
+        <label>Date <input type="date" id="log-date"></label>
+        <select class="category-filter" data-for="log"></select>
+      </div>
+      <p class="hint">Tap everything you wore that day, then Save. Tap again to un-select.</p>
+      <div id="log-grid" class="grid"></div>
+      <div class="sticky-actions">
+        <span id="log-selected"></span>
+        <button id="log-save" class="primary">Save</button>
+      </div>
+    </section>
+
+    <!-- Needs washing -->
+    <section id="tab-wash" hidden>
+      <p class="hint">Items worn at least as many times as their wash limit. Tap to select, then mark washed.</p>
+      <div id="wash-grid" class="grid"></div>
+      <div class="sticky-actions">
+        <button id="wash-select-all">Select all</button>
+        <button id="wash-save" class="primary">Mark selected washed</button>
+      </div>
+    </section>
+
+    <!-- Add / edit -->
+    <section id="tab-add" hidden>
+      <h2 id="form-title">Add item</h2>
+      <form id="item-form">
+        <input type="hidden" name="id">
+        <label class="photo-pick">
+          <img id="form-photo" alt="" hidden>
+          <span id="form-photo-hint">Tap to take / choose photo</span>
+          <input type="file" name="photo" accept="image/*" hidden>
+        </label>
+        <label>Name <input name="name" required></label>
+        <label>Category
+          <input name="category" list="category-list" required>
+          <datalist id="category-list"></datalist>
+        </label>
+        <label>Wears before washing <input name="washEvery" type="number" min="1" value="3" required></label>
+        <div id="edit-only" hidden>
+          <label>Wears since last wash <input name="wearsSinceWash" type="number" min="0"></label>
+          <label>Total wears <input name="totalWears" type="number" min="0"></label>
+          <p id="form-history" class="hint"></p>
+        </div>
+        <div class="actions">
+          <button type="submit" class="primary">Save</button>
+          <button type="button" id="form-washed" hidden>Mark washed</button>
+          <button type="button" id="form-cancel" hidden>Cancel</button>
+          <button type="button" id="form-delete" class="danger" hidden>Delete</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Settings -->
+    <section id="tab-settings" hidden>
+      <h2>GitHub settings</h2>
+      <p class="hint">Data is saved as <code>data/items.json</code> and <code>photos/</code> in this repo.
+        Token needs <b>Contents: Read and write</b> on that repo only. Stored in this browser only.</p>
+      <form id="settings-form">
+        <label>Owner (GitHub username) <input name="owner" required></label>
+        <label>Repo name <input name="repo" required></label>
+        <label>Branch <input name="branch" placeholder="main"></label>
+        <label>Personal access token <input name="token" type="password" autocomplete="off" required></label>
+        <div class="actions">
+          <button type="submit" class="primary">Save &amp; connect</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="logic.js"></script>
+  <script src="github.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
