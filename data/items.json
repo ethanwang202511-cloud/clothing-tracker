@@ -178,5 +178,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xk0dhpb6l1b",
+    "name": "Hollister Beige Hoodie",
+    "category": "sweater",
+    "photo": "photos/mu1xk0dhpb6l1b-1789431907301.jpg",
+    "washEvery": 6,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
