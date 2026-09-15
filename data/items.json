@@ -46,5 +46,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xcls90v238u",
+    "name": "UNIQLO Navy Sweatpants",
+    "category": "pants",
+    "photo": "photos/mu1xcls90v238u-1789431561801.jpg",
+    "washEvery": 4,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
