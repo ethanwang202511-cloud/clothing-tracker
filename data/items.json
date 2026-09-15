@@ -130,5 +130,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xigqr4cx981",
+    "name": "Essentials White Hoodie",
+    "category": "sweater",
+    "photo": "photos/mu1xigqr4cx981-1789431835203.jpg",
+    "washEvery": 6,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
