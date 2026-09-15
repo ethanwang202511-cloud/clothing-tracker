@@ -142,5 +142,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xj0za5s41x1",
+    "name": "ALAND Gray Hoodie",
+    "category": "sweater",
+    "photo": "photos/mu1xj0za5s41x1-1789431861430.jpg",
+    "washEvery": 6,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
