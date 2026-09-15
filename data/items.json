@@ -94,5 +94,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xf1xf1e0e5w",
+    "name": "Hollister Black Jeans",
+    "category": "pants",
+    "photo": "photos/mu1xf1xf1e0e5w-1789431676035.jpg",
+    "washEvery": 4,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
