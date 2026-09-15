@@ -58,5 +58,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xdf498yk5ys",
+    "name": "Hollister Pink Swim Shorts",
+    "category": "pants",
+    "photo": "photos/mu1xdf498yk5ys-1789431599817.jpg",
+    "washEvery": 2,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
