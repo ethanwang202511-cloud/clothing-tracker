@@ -82,5 +82,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xeoyrwj6yna",
+    "name": "Hollister Gray Shorts",
+    "category": "pants",
+    "photo": "photos/mu1xeoyrwj6yna-1789431659235.jpg",
+    "washEvery": 2,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
