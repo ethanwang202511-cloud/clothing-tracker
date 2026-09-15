@@ -166,5 +166,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xjotshz224i",
+    "name": "Hollister Gray Zipper Hoodie",
+    "category": "sweater",
+    "photo": "photos/mu1xjotshz224i-1789431892336.jpg",
+    "washEvery": 6,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
