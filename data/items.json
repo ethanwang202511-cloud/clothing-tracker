@@ -10,5 +10,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xb22nas36rd",
+    "name": "Hollister Beige Flare Sweatpants",
+    "category": "pants",
+    "photo": "photos/mu1xb22nas36rd-1789431489600.jpg",
+    "washEvery": 4,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
