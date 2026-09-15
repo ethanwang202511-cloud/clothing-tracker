@@ -22,5 +22,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xbx4a81en2g",
+    "name": "UNIQLO Navy Cargo Pants",
+    "category": "pants",
+    "photo": "photos/mu1xbx4a81en2g-1789431529834.jpg",
+    "washEvery": 4,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
