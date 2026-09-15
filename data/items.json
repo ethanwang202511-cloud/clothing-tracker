@@ -70,5 +70,17 @@
     "lastWorn": null,
     "lastWashed": null,
     "wearLog": []
+  },
+  {
+    "id": "mu1xedswhjcbxd",
+    "name": "UNIQLO Korean Light Brown Jeans",
+    "category": "pants",
+    "photo": "photos/mu1xedswhjcbxd-1789431644768.jpg",
+    "washEvery": 4,
+    "wearsSinceWash": 0,
+    "totalWears": 0,
+    "lastWorn": null,
+    "lastWashed": null,
+    "wearLog": []
   }
 ]
