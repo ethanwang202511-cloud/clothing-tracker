@@ -126,11 +126,13 @@
     "category": "pants",
     "photo": "photos/mu1xg83xj4ue31-1789431730702.jpg",
     "washEvery": 4,
-    "wearsSinceWash": 0,
-    "totalWears": 0,
-    "lastWorn": null,
+    "wearsSinceWash": 1,
+    "totalWears": 1,
+    "lastWorn": "2026-09-16",
     "lastWashed": null,
-    "wearLog": []
+    "wearLog": [
+      "2026-09-16"
+    ]
   },
   {
     "id": "mu1xgmz5t5phkk",
@@ -204,10 +206,12 @@
     "category": "sweater",
     "photo": "photos/mu1xk0dhpb6l1b-1789431907301.jpg",
     "washEvery": 6,
-    "wearsSinceWash": 0,
-    "totalWears": 0,
-    "lastWorn": null,
+    "wearsSinceWash": 1,
+    "totalWears": 1,
+    "lastWorn": "2026-09-16",
     "lastWashed": null,
-    "wearLog": []
+    "wearLog": [
+      "2026-09-16"
+    ]
   }
 ]
