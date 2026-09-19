@@ -5,13 +5,14 @@
     "category": "pants",
     "photo": "photos/mu1xalq8h91vot-1789431468417.jpg",
     "washEvery": 4,
-    "wearsSinceWash": 2,
-    "totalWears": 2,
-    "lastWorn": "2026-09-15",
+    "wearsSinceWash": 3,
+    "totalWears": 3,
+    "lastWorn": "2026-09-18",
     "lastWashed": null,
     "wearLog": [
       "2026-09-14",
-      "2026-09-15"
+      "2026-09-15",
+      "2026-09-18"
     ]
   },
   {
@@ -34,12 +35,13 @@
     "category": "pants",
     "photo": "photos/mu1xbx4a81en2g-1789431529834.jpg",
     "washEvery": 4,
-    "wearsSinceWash": 1,
-    "totalWears": 1,
-    "lastWorn": "2026-09-14",
+    "wearsSinceWash": 2,
+    "totalWears": 2,
+    "lastWorn": "2026-09-18",
     "lastWashed": null,
     "wearLog": [
-      "2026-09-14"
+      "2026-09-14",
+      "2026-09-18"
     ]
   },
   {
