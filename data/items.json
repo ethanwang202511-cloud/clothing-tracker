@@ -22,10 +22,10 @@
     "category": "pants",
     "photo": "photos/mu1xb22nas36rd-1789431489600.jpg",
     "washEvery": 4,
-    "wearsSinceWash": 3,
+    "wearsSinceWash": 0,
     "totalWears": 3,
     "lastWorn": "2026-09-25",
-    "lastWashed": null,
+    "lastWashed": "2026-09-26",
     "wearLog": [
       "2026-09-14",
       "2026-09-24",
