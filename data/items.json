@@ -161,10 +161,10 @@
     "category": "sweater",
     "photo": "photos/mu1xigqr4cx981-1789431835203.jpg",
     "washEvery": 6,
-    "wearsSinceWash": 3,
+    "wearsSinceWash": 0,
     "totalWears": 3,
     "lastWorn": "2026-09-26",
-    "lastWashed": null,
+    "lastWashed": "2026-09-30",
     "wearLog": [
       "2026-09-14",
       "2026-09-24",
