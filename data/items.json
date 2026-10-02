@@ -69,13 +69,14 @@
     "category": "pants",
     "photo": "photos/mu1xcls90v238u-1789431561801.jpg",
     "washEvery": 4,
-    "wearsSinceWash": 2,
-    "totalWears": 2,
-    "lastWorn": "2026-09-28",
+    "wearsSinceWash": 3,
+    "totalWears": 3,
+    "lastWorn": "2026-10-01",
     "lastWashed": null,
     "wearLog": [
       "2026-09-17",
-      "2026-09-28"
+      "2026-09-28",
+      "2026-10-01"
     ]
   },
   {
